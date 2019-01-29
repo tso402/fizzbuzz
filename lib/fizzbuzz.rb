@@ -1,7 +1,10 @@
 def fizzbuzz(number)
     if !number.is_a? Integer 
        return 'Please enter an integer'
-    else
-    'fizz'
+    end
+    if number == 3
+      'fizz'
+    elsif number == 5
+      'buzz'
     end
 end
